@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { GodsComponent } from './gods/gods.component';
+import { GodsComponent } from '../../modules/gods/gods.component';
 
 
 @NgModule({
