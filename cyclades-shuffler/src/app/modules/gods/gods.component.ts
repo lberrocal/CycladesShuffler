@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GODS } from '../../model/standard-gods';
 
 @Component({
   selector: 'app-gods',
@@ -6,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./gods.component.css']
 })
 export class GodsComponent implements OnInit {
+  gods = GODS;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
 }
