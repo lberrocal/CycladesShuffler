@@ -1,3 +1,7 @@
-<p>
-  gods works!
-</p>
+<ul class="gods">
+    <li *ngFor="let god of gods">
+        <span class="god-tile">
+            <img src="{{god.imagePath}}" alt="{{god.name}}">
+        </span>
+    </li>
+</ul>
