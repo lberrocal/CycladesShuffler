@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { GODS } from '../../model/standard-gods';
+import { GODS } from '../model/standard-gods';
 
 @Component({
   selector: 'app-gods',

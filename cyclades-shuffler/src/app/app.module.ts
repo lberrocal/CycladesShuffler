@@ -4,14 +4,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { GodsComponent } from './gods/gods.component';
-import { SettingsComponent } from './settings/settings.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    GodsComponent,
-    SettingsComponent
+    GodsComponent
   ],
   imports: [
     BrowserModule
